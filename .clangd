@@ -1,0 +1,18 @@
+CompileFlags:
+  Add: 
+    [ -I./lib/
+    , -I./lib/glfw/include/
+    , -I./lib/glad/include/
+    , -xc-header
+    , -std=c11
+    , -Wall
+    , -Wextra
+    , -Wpedantic
+    , -Wstrict-aliasing ]
+
+Sytle:
+  QuotedHeaders: "src/.*"
+  AngledHeaders: "lib/.*"
+
+InlayHints:
+  Enabled: No
